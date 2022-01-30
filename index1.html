@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save My Password</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pushster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Pushster&family=PT+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="A3.jpg" alt="A3KR">
+        </div>
+        <div class="locker">
+            <h1 id="head1">Faculty Login</h1>
+            <h1 id="head2">Student Login</h1>
+            <input type="text" placeholder="Username" id="username" required >
+            <input type="password" placeholder="Password" id="password" required>
+            <a href="index.html" class="Submit" id="std" onclick="check()" >Log In</a>
+            <a href="index0.html" class="Submit" id="fac" onclick="check()" >Log In</a>
+        </div>
+    </div>
+    <div class="textbox">
+        <h1>Welcome to Project A3KR</h1>
+        <div class="control">
+            <button id="faclog" onclick="facin()">Faculty Login</button>
+            <button id="stdlog" onclick="stdin()">Student Login</button>
+        </div>
+    </div>
+    <script src="life.js"></script>
+</body>
+</html>
